@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 320" width="340" height="320">
+  <defs>
+    <linearGradient id="am-left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B5BDB"/>
+      <stop offset="0.5" stop-color="#22B8CF"/>
+      <stop offset="1" stop-color="#00CFFF"/>
+    </linearGradient>
+    <linearGradient id="am-right" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#228BE6"/>
+      <stop offset="0.5" stop-color="#9C36B5"/>
+      <stop offset="1" stop-color="#D63AF9"/>
+    </linearGradient>
+    <linearGradient id="am-dot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B5BDB"/>
+      <stop offset="1" stop-color="#22B8CF"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B5BDB"/>
+      <stop offset="0.5" stop-color="#9C36B5"/>
+      <stop offset="1" stop-color="#D63AF9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left "A" shape — blue to cyan -->
+  <path d="M 60 240  L 130 40  L 168 148  L 150 148  L 130 82  L 78 240 Z" fill="url(#am-left)"/>
+
+  <!-- Right "A" shape — blue to purple -->
+  <path d="M 280 240  L 210 40  L 172 148  L 190 148  L 210 82  L 262 240 Z" fill="url(#am-right)"/>
+
+  <!-- Circle dot in center -->
+  <circle cx="170" cy="178" r="22" fill="url(#am-dot)"/>
+
+  <!-- "AUTOMIND" — white text so it works on dark backgrounds -->
+  <text x="170" y="274" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="900" text-anchor="middle" letter-spacing="5" fill="#FFFFFF">AUTOMIND</text>
+
+  <!-- Tagline — gradient text -->
+  <text x="170" y="305" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" text-anchor="middle" letter-spacing="3">
+    <tspan fill="#3B82F6">AUTOMATE. </tspan><tspan fill="#9C36B5">INNOVATE. </tspan><tspan fill="#D63AF9">ELEVATE.</tspan>
+  </text>
+</svg>

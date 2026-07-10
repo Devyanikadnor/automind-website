@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#020617">
+
+  <title>Automind — AI Automation, Web, App, Testing, SEO, Design, Video & Content</title>
+  <meta name="description" content="Automind delivers AI automation, website and app development, testing, SEO, digital marketing, design, video editing, and content writing services for modern businesses.">
+  <meta name="keywords" content="AI automation, web development, app development, software testing, SEO, digital marketing, graphic design, video editing, content writing, UI UX design, branding, lead generation">
+  <meta name="author" content="Automind">
+  <link rel="canonical" href="https://automindtech.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Automind — AI Automation, Web, App, Testing, SEO, Design, Video & Content">
+  <meta property="og:description" content="We build, automate, test, design, and market digital products that scale. AI automation, web and app development, testing, SEO, design, video, and content services.">
+  <meta property="og:url" content="https://automindtech.github.io/">
+  <meta property="og:site_name" content="Automind">
+  <meta property="og:image" content="https://automindtech.github.io/assets/og-image.svg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Automind — AI Automation, Web, App, Testing, SEO, Design, Video & Content">
+  <meta name="twitter:description" content="We build, automate, test, design, and market digital products that scale.">
+  <meta name="twitter:image" content="https://automindtech.github.io/assets/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/favicon.svg">
+  <link rel="manifest" href="assets/manifest.webmanifest">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Automind",
+    "url": "https://automindtech.github.io/",
+    "logo": "https://automindtech.github.io/assets/favicon.svg",
+    "description": "AI automation, website and app development, testing, SEO, digital marketing, design, video editing, and content writing services for modern businesses.",
+    "sameAs": [
+      "https://twitter.com/automindtech",
+      "https://linkedin.com/company/automindtech",
+      "https://github.com/automindtech"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-555-0100",
+      "contactType": "customer service",
+      "email": "hello@automindtech.com",
+      "availableLanguage": ["English"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "500 Innovation Drive, Suite 200",
+      "addressLocality": "San Francisco",
+      "addressRegion": "CA",
+      "postalCode": "94107",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Automind",
+    "url": "https://automindtech.github.io/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://automindtech.github.io/services.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Loading screen -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader-logo">Automind</div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Automind home">
+        <img src="assets/automind.png.png" alt="Automind" class="logo-img">
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+<!--         <a href="portfolio.html" class="nav-link">Portfolio</a>
+ --><!--         <a href="pricing.html" class="nav-link">Pricing</a>
+ -->        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <div class="mobile-overlay"></div>
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="services.html" class="nav-link">Services</a>
+<!--     <a href="portfolio.html" class="nav-link">Portfolio</a>
+ -->    <!-- <a href="pricing.html" class="nav-link">Pricing</a> -->
+    <a href="contact.html" class="nav-link">Contact</a>
+  </nav>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge reveal">
+              <span class="dot"></span>
+              <span>Trusted</span>
+            </div>
+            <h1 class="hero-title reveal" data-reveal="left">
+              <span class="line">We automate, build &</span>
+              <span class="line">design <span class="hero-typed" data-phrases="AI Automation|Web Development|Digital Marketing|Brand Identity|Video Editing|Content Writing"></span><span class="cursor" aria-hidden="true"></span></span>
+              <span class="line">that scales.</span>
+            </h1>
+            <p class="hero-description reveal" data-reveal="left">
+              Automind is your end-to-end partner for AI automation, web development, testing, SEO, design, video editing, and content writing. We help businesses launch faster with quality, design, and confidence baked in.
+            </p>
+            <div class="hero-actions reveal" data-reveal="left">
+              <a href="services.html" class="btn btn--secondary btn--lg">View Services</a>
+            </div>
+            <div class="hero-stats reveal" data-reveal="left">
+              <!-- <div class="hero-stat">
+                <div class="num"><span data-counter="100" data-suffix="+">0</span></div>
+                <div class="label">Projects Delivered</div>
+              </div>
+              <div class="hero-stat">
+                <div class="num"><span data-counter="50" data-suffix="+">0</span></div>
+                <div class="label">Happy Clients</div>
+              </div>
+              <div class="hero-stat">
+                <div class="num"><span data-counter="99" data-suffix="%">0</span></div>
+                <div class="label">Satisfaction</div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" data-reveal="scale">
+            <div class="hero-orb" aria-hidden="true"></div>
+            <div class="hero-orb-content">
+              <img src="assets/automind.png.png" alt="Automind" style="width:80px;height:80px;margin:0 auto var(--space-4);display:block;">
+              <h3>Automind</h3>
+              <p>Automate. Innovate. Elevate.</p>
+            </div>
+            <div class="floating-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.5a4.5 4.5 0 0 0-1.5-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.5-.5-5.5-.5-8 1-2-1.5-3-1.5-3-1.5-.33 1.15-.33 2.35 0 3.5A5.4 5.4 0 0 0 3 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v3.5"/></svg>
+            </div>
+            <div class="floating-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div class="floating-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="floating-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="floating-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trusted Technologies ===== -->
+    <!-- <section class="tech-marquee" aria-label="Technologies we work with">
+      <div class="container">
+        <p class="tech-marquee-title">Technologies we work with</p>
+      </div>
+      <div class="marquee">
+        <div class="marquee-track">
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#E34F26"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.327 3.426-2.91.804-2.915-.804-.188-2.046H6.235l.33 4.567L11.997 19l5.352-1.677.744-8.573H8.531z"/></svg><span>HTML5</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#1572B6"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.906-.804-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg><span>CSS3</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#F7DF1E"><path d="M0 0h24v24H0V0z"/><path fill="#000" d="M6.5 20.5l1.5-1.5c-.4-.3-.7-.6-1-.9L6 19.5l-1-1c-.3.3-.6.6-.9.9l1.5 1.5-1.5 1.5c.3.3.6.6.9.9L6 21.5l1 1c.3-.3.6-.6.9-.9L6.5 20.5zM18 18.5c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5.7-1.5 1.5-1.5 1.5.7 1.5 1.5zM12 18.5c0 .8-.7 1.5-1.5 1.5S9 19.3 9 18.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5z"/></svg><span>JavaScript</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#61DAFB"><circle cx="12" cy="12" r="2.2"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm6.9 6.5c-.5-.2-1.1-.4-1.7-.5-.2-.6-.4-1.1-.7-1.6 1 .5 1.9 1.2 2.4 2.1zM12 4c.8 0 1.6.9 2.3 2.5-1.5.2-3 .2-4.6 0C10.4 4.9 11.2 4 12 4zM5.1 6.5c.5.2 1.1.4 1.7.5.2.6.4 1.1.7 1.6-1-.5-1.9-1.2-2.4-2.1zM4 12c0-.8.9-1.6 2.5-2.3.2 1.5.2 3 0 4.6C4.9 13.6 4 12.8 4 12zm8 8c-.8 0-1.6-.9-2.3-2.5 1.5-.2 3-.2 4.6 0C13.6 19.1 12.8 20 12 20zm6.9-2.5c-.5-.2-1.1-.4-1.7-.5-.2-.6-.4-1.1-.7-1.6 1 .5 1.9 1.2 2.4 2.1zM17.5 14.5c.2-1.5.2-3 0-4.6 1.6.7 2.5 1.5 2.5 2.3s-.9 1.6-2.5 2.3z"/></svg><span>React</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#F05032"><path d="M23.5 11.2l-1.4-1.4c-.2-.2-.5-.3-.7-.3h-3.2c-.3 0-.6.1-.8.4l-.7.9c-.3.4-.8.4-1.1 0l-.7-.9c-.2-.2-.5-.4-.8-.4h-3.2c-.3 0-.5.1-.7.3l-1.4 1.4c-.2.2-.3.4-.3.7v3.2c0 .3.1.5.3.7l1.4 1.4c.2.2.4.3.7.3h3.2c.3 0 .6-.1.8-.4l.7-.9c.3-.4.8-.4 1.1 0l.7.9c.2.2.5.4.8.4h3.2c.3 0 .5-.1.7-.3l1.4-1.4c.2-.2.3-.4.3-.7v-3.2c0-.3-.1-.5-.3-.7z"/></svg><span>Git</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#181717"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg><span>GitHub</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#2496ED"><path d="M13.983 11.078h2.119a2.012 2.012 0 0 0 2.012-2.012V6.983a2.012 2.012 0 0 0-2.012-2.012h-2.119a2.012 2.012 0 0 0-2.012 2.012v2.083a2.012 2.012 0 0 0 2.012 2.012zM7.798 11.078H9.917a2.012 2.012 0 0 0 2.012-2.012V6.983A2.012 2.012 0 0 0 9.917 4.971H7.798A2.012 2.012 0 0 0 5.786 6.983v2.083a2.012 2.012 0 0 0 2.012 2.012zM7.798 17.283H9.917a2.012 2.012 0 0 0 2.012-2.012v-2.083a2.012 2.012 0 0 0-2.012-2.012H7.798a2.012 2.012 0 0 0-2.012 2.012v2.083a2.012 2.012 0 0 0 2.012 2.012zM13.983 17.283h2.119a2.012 2.012 0 0 0 2.012-2.012v-2.083a2.012 2.012 0 0 0-2.012-2.012h-2.119a2.012 2.012 0 0 0-2.012 2.012v2.083a2.012 2.012 0 0 0 2.012 2.012z"/></svg><span>Docker</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#FF9900"><path d="M6.763 10.036c.247.064.39.32.326.566-.064.247-.32.39-.566.326-.247-.064-.39-.32-.326-.566.064-.247.32-.39.566-.326zm1.362 1.362c.247.064.39.32.326.566-.064.247-.32.39-.566.326-.247-.064-.39-.32-.326-.566.064-.247.32-.39.566-.326zm1.362 1.362c.247.064.39.32.326.566-.064.247-.32.39-.566.326-.247-.064-.39-.32-.326-.566.064-.247.32-.39.566-.326zM12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/></svg><span>AWS</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#D33833"><path d="M11.92 2.5l-9.92 5.5v8l9.92 5.5 9.92-5.5v-8L11.92 2.5z"/></svg><span>Jenkins</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#326CE5"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.3l7.5 3.7v7.9L12 19.7 4.5 15.9V8L12 4.3z"/></svg><span>Kubernetes</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#43B02A"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.07 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg><span>Selenium</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#2EAD33"><path d="M3 3h18v18H3z" fill="none"/><path d="M7 7h10v2H7zm0 4h10v2H7zm0 4h10v2H7z" fill="currentColor"/></svg><span>Playwright</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#172B4D"><path d="M9.5 8.5l-2 2 2 2m5-4l2 2-2 2m-3-7l-2 14"/></svg><span>Cypress</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#FF6C37"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg><span>Postman</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#D24090"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg><span>JMeter</span></div>
+          <div class="tech-item"><svg viewBox="0 0 24 24" fill="#F24E1E"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z"/><path d="M8 8h8v8H8z"/></svg><span>Figma</span></div>
+        </div>
+      </div>
+    </section>
+ -->
+    <!-- ===== Services ===== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">What We Do</span>
+          <h2 class="section-title">Services that <span class="gradient-text">drive growth</span></h2>
+          <p class="section-subtitle">Eight service categories, 57+ individual offerings. From AI automation to content writing, we cover the full digital product lifecycle.</p>
+        </div>
+
+        <div class="services-grid stagger">
+          <article class="service-card">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3 3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3-3z"/><path d="M12 8v8M8 12h8"/></svg>
+            </div>
+            <h3>AI Automation</h3>
+            <p>AI-driven automation, chatbots, agents, and workflow solutions that scale your operations without scaling headcount.</p>
+            <ul class="service-features">
+              <li>AI Automation & Business Automation</li>
+              <li>AI Chatbots & AI Agents</li>
+              <li>Workflow </li>
+              <li> CRM Automation</li>
+            </ul>
+            <a href="services.html#ai-automation" class="service-link">Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-box icon-box--accent">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Website Development</h3>
+            <p>Fast, responsive, SEO-friendly websites — from landing pages to ecommerce platforms.</p>
+            <ul class="service-features">
+              <li>Business, Portfolio & Landing Pages</li>
+              <li>Ecommerce Websites</li>
+              <li>WordPress Sites</li>
+              <li>Custom Development</li>
+            </ul>
+            <a href="services.html#website-development" class="service-link">Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-3.5 7.5-8.5 9.5C7.5 19.5 4 17 4 12V5l8.5-3L21 5v7z"/></svg>
+            </div>
+            <h3>Testing & Support</h3>
+            <p>Comprehensive QA across manual, automation, performance, and security testing — plus ongoing maintenance and support.</p>
+            <ul class="service-features">
+              <li>Manual & Automation Testing</li>
+              <li>Performance & Security Testing</li>
+              <li>Maintenance & Bug Fixing</li>
+              <li>Technical Support</li>
+            </ul>
+            <a href="services.html#testing-support" class="service-link">Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-box icon-box--accent">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>SEO & Digital Marketing</h3>
+            <p>Data-driven SEO and digital marketing that drives traffic, leads, and revenue across all channels.</p>
+            <ul class="service-features">
+              <li>Technical, On-page & Off-page SEO</li>
+              <li>Google Ads & Meta Ads</li>
+              <li>Email & Content Marketing</li>
+              <li>Analytics & Reporting</li>
+            </ul>
+            <a href="services.html#seo-marketing" class="service-link">Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-box icon-box--success">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="10.5" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="12.5" r="2.5"/><path d="M12 22a10 10 0 1 1 0-20"/></svg>
+            </div>
+            <h3>Design & Branding</h3>
+            <p>Logo design, UI/UX, brand identity, social media graphics, brochures, and presentations that make your business look premium.</p>
+            <ul class="service-features">
+              <li>Logo Design & Brand Identity</li>
+              <li>UI/UX Design & Social Media Posts</li>
+              <li>Business Cards & Brochures</li>
+              <li>Presentations</li>
+            </ul>
+            <a href="services.html#design-branding" class="service-link">Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </div>
+            <h3>Video Editing</h3>
+            <p>Professional video editing for YouTube, Reels, Shorts, corporate videos, motion graphics, and podcasts.</p>
+            <ul class="service-features">
+              <li>YouTube, Reels & Shorts</li>
+              <li>Corporate & Promotional Videos</li>
+              <li>Motion Graphics</li>
+              <li>Podcast Editing</li>
+            </ul>
+            <a href="services.html#video-editing" class="service-link">Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-box icon-box--accent">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+            </div>
+            <h3>Content Writing</h3>
+            <p>Compelling, SEO-optimized content — blogs, website copy, articles, product descriptions, and social media content.</p>
+            <ul class="service-features">
+              <li>Blogs & Website Content</li>
+              <li>SEO Articles & Copywriting</li>
+              <li>Product Descriptions</li>
+              <li>Social Media Content</li>
+            </ul>
+            <a href="services.html#content-writing" class="service-link">Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why Choose Us ===== -->
+    <section class="section section--sm" id="why-choose-us">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Why Automind</span>
+          <h2 class="section-title">Built on <span class="gradient-text">trust & quality</span></h2>
+          <p class="section-subtitle">Eight reasons startups choose us as their long-term technology partner.</p>
+        </div>
+
+        <div class="why-grid stagger">
+          <div class="why-card">
+            <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+            <h4>Experienced Professionals</h4>
+            <p>Senior engineers and designers with 10+ years of combined experience.</p>
+          </div>
+          <div class="why-card">
+            <div class="icon-box icon-box--accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+            <h4>Affordable Pricing</h4>
+            <p>Transparent, startup-friendly pricing with no hidden costs.</p>
+          </div>
+          <div class="why-card">
+            <div class="icon-box icon-box--success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+            <h4>Fast Delivery</h4>
+            <p>Agile workflows that ship quality work on schedule.</p>
+          </div>
+          <div class="why-card">
+            <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h4>Quality Assurance</h4>
+            <p>Rigorous QA baked into every deliverable we ship.</p>
+          </div>
+          <div class="why-card">
+            <div class="icon-box icon-box--accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h4>Modern Technologies</h4>
+            <p>We use the latest, battle-tested tools and frameworks.</p>
+          </div>
+          <div class="why-card">
+            <div class="icon-box icon-box--success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+            <h4>Secure Solutions</h4>
+            <p>Security-first approach across every layer of your product.</p>
+          </div>
+          <div class="why-card">
+            <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg></div>
+            <h4>Lifetime Support</h4>
+            <p>Ongoing maintenance and support for the life of your project.</p>
+          </div>
+          <div class="why-card">
+            <div class="icon-box icon-box--accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h4>Client Satisfaction</h4>
+            <p>99% satisfaction rate — we measure success by your success.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Process Timeline ===== -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">How We Work</span>
+          <h2 class="section-title">A proven <span class="gradient-text">7-step process</span></h2>
+          <p class="section-subtitle">From first conversation to long-term support, every project follows a clear, transparent workflow.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal" data-reveal="left">
+            <div class="timeline-dot">1</div>
+            <div class="timeline-content">
+              <h4>Requirement Discussion</h4>
+              <p>We listen first. Deep-dive calls to understand your goals, users, and constraints.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal" data-reveal="right">
+            <div class="timeline-dot">2</div>
+            <div class="timeline-content">
+              <h4>Planning</h4>
+              <p>Scope, milestones, and architecture — mapped out before a single line of code.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal" data-reveal="left">
+            <div class="timeline-dot">3</div>
+            <div class="timeline-content">
+              <h4>Design</h4>
+              <p>Wireframes, prototypes, and visual design that align with your brand.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal" data-reveal="right">
+            <div class="timeline-dot">4</div>
+            <div class="timeline-content">
+              <h4>Development</h4>
+              <p>Clean, documented, scalable code built with modern best practices.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal" data-reveal="left">
+            <div class="timeline-dot">5</div>
+            <div class="timeline-content">
+              <h4>Testing</h4>
+              <p>Manual + automation + performance + security — nothing ships untested.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal" data-reveal="right">
+            <div class="timeline-dot">6</div>
+            <div class="timeline-content">
+              <h4>Delivery</h4>
+              <p>Smooth deployment to your platform of choice, with full handover documentation.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal" data-reveal="left">
+            <div class="timeline-dot">7</div>
+            <div class="timeline-content">
+              <h4>Support</h4>
+              <p>Ongoing maintenance, updates, and improvements — for the life of the product.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== Statistics ===== -->
+ <!--    <section class="stats" id="stats">
+      <div class="container">
+        <div class="stats-grid stagger">
+          <div class="stat-item">
+            <div class="stat-num"><span data-counter="100" data-suffix="+">0</span></div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span data-counter="50" data-suffix="+">0</span></div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span data-counter="99" data-suffix="%">0</span></div>
+            <div class="stat-label">Satisfaction</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span data-counter="24" data-suffix="/7">0</span></div>
+            <div class="stat-label">Support</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span data-counter="8" data-suffix="">0</span></div>
+            <div class="stat-label">Service Categories</div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ===== Testimonials ===== -->
+<!--     <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Client Love</span>
+          <h2 class="section-title">What clients <span class="gradient-text">say about us</span></h2>
+          <p class="section-subtitle">Real feedback from founders and product leaders we've worked with.</p>
+        </div>
+
+        <div class="testimonials-grid stagger">
+          <article class="testimonial-card">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-text">"Automind's QA team caught bugs our internal team missed for months. Their Playwright automation suite saved us weeks of manual regression every release."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SR</div>
+              <div class="testimonial-author-info">
+                <h5>Sarah Reynolds</h5>
+                <p>CTO, FinFlow</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-text">"They rebuilt our marketing site in two weeks. Fast, responsive, and the design is the best we've ever had. Conversions jumped 40% in the first month."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">MK</div>
+              <div class="testimonial-author-info">
+                <h5>Marcus Kim</h5>
+                <p>Founder, Brightpath</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-rating" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-text">"The brand identity package exceeded our expectations. Automind understood our vision instantly and delivered a cohesive, premium look across every touchpoint."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">AP</div>
+              <div class="testimonial-author-info">
+                <h5>Aisha Patel</h5>
+                <p>CEO, Lumen Health</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ===== Pricing ===== -->
+    <!-- <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Pricing</span>
+          <h2 class="section-title">Simple, <span class="gradient-text">transparent plans</span></h2>
+          <p class="section-subtitle">Choose the plan that fits your stage. All plans include a free consultation and no hidden fees.</p>
+        </div>
+
+        <div class="pricing-grid stagger">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <div class="pricing-name">Starter</div>
+              <p class="pricing-desc">For early-stage startups validating their idea.</p>
+              <div class="pricing-price">
+                <span class="amount">$499</span>
+                <span class="period">/project</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li>1 service category</li>
+              <li>Up to 5 pages or 10 test cases</li>
+              <li>Responsive design</li>
+              <li>Basic SEO setup</li>
+              <li>2 rounds of revisions</li>
+              <li>2 weeks delivery</li>
+              <li class="disabled">Priority support</li>
+              <li class="disabled">Dedicated manager</li>
+            </ul>
+            <a href="contact.html" class="btn btn--secondary btn--block">Get Started</a>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="pricing-header">
+              <div class="pricing-name">Professional</div>
+              <p class="pricing-desc">For growing teams that need the full package.</p>
+              <div class="pricing-price">
+                <span class="amount">$1,499</span>
+                <span class="period">/project</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li>2 service categories bundled</li>
+              <li>Up to 15 pages or 50 test cases</li>
+              <li>Automation testing included</li>
+              <li>Advanced SEO + analytics</li>
+              <li>Unlimited revisions (fair use)</li>
+              <li>1 week delivery</li>
+              <li>Priority support</li>
+              <li class="disabled">Dedicated manager</li>
+            </ul>
+            <a href="contact.html" class="btn btn--primary btn--block">Get Started</a>
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <div class="pricing-name">Enterprise</div>
+              <p class="pricing-desc">For scaling companies with ongoing needs.</p>
+              <div class="pricing-price">
+                <span class="amount">Custom</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li>All 8 service categories bundled</li>
+              <li>Unlimited scope (retainer)</li>
+              <li>Full automation + CI/CD</li>
+              <li>Dedicated QA + design team</li>
+              <li>Unlimited revisions</li>
+              <li>Flexible delivery</li>
+              <li>24/7 priority support</li>
+              <li>Dedicated account manager</li>
+            </ul>
+            <a href="contact.html" class="btn btn--secondary btn--block">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ===== FAQ ===== -->
+    <!-- <section class="section section--sm" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">FAQ</span>
+          <h2 class="section-title">Frequently asked <span class="gradient-text">questions</span></h2>
+          <p class="section-subtitle">Everything you need to know before working with us.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="accordion-item reveal">
+            <button class="accordion-header" aria-expanded="false">
+              <span>What services does Automind offer?</span>
+              <span class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                We offer eight service categories with 57+ individual services: AI Automation (AI Automation, Business Automation, AI Chatbots, AI Agents, Workflow Automation, CRM Automation, Email Automation, Lead Generation, Custom AI Solutions), Website Development (Business Website, Portfolio, Landing Page, Ecommerce, SaaS Website, Corporate Website, WordPress, Custom Development), Application Development (Android Apps, iOS Apps, Flutter, React Native, Web Applications, ERP, CRM, Dashboard), Testing & Support (Manual Testing, Automation Testing, Performance Testing, Security Testing, Maintenance, Bug Fixing, Technical Support), SEO & Digital Marketing (Technical SEO, On-page SEO, Off-page SEO, Google Ads, Meta Ads, Email Marketing, Content Marketing, Analytics), Design & Branding (Logo Design, UI/UX Design, Social Media Posts, Brand Identity, Business Cards, Brochures, Presentations), Video Editing (YouTube, Reels, Shorts, Corporate Videos, Motion Graphics, Promotional Videos, Podcast Editing), and Content Writing (Blogs, Website Content, SEO Articles, Copywriting, Product Description, Social Media Content).
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item reveal">
+            <button class="accordion-header" aria-expanded="false">
+              <span>How long does a typical project take?</span>
+              <span class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Timelines depend on scope. A landing page typically takes 1-2 weeks, a full business website 2-4 weeks, and QA automation projects 2-6 weeks. We provide a detailed timeline during the planning phase and keep you updated with weekly milestones.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item reveal">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Do you offer ongoing maintenance and support?</span>
+              <span class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Yes. Every project includes a support period, and we offer ongoing maintenance retainers for updates, security patches, performance monitoring, and feature additions. Our Enterprise plan includes 24/7 priority support with a dedicated account manager.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item reveal">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Can you deploy my website to GitHub Pages?</span>
+              <span class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Absolutely. GitHub Pages deployment is one of our specialties for static sites. We set up the repository, configure GitHub Actions for CI/CD if needed, and handle the full deployment process. We also support Netlify, Vercel, and traditional hosting.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item reveal">
+            <button class="accordion-header" aria-expanded="false">
+              <span>What is your pricing model?</span>
+              <span class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                We offer three plans: Starter ($499/project) for single-service projects, Professional ($1,499/project) for bundled services with automation, and Enterprise (custom retainer) for ongoing, unlimited-scope work. Every plan starts with a free consultation to scope your needs.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item reveal">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Do you sign NDAs and protect my IP?</span>
+              <span class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Yes. We're happy to sign NDAs before any technical discussion. All work we produce for you is yours — full IP transfer happens on final delivery. We follow strict data security practices and never share client information.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2 class="section-title">Let's build something <span class="gradient-text">great together</span></h2>
+          <p class="section-subtitle">Tell us about your project. We'll get back to you within 24 hours with a free consultation.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal" data-reveal="left">
+            <div class="contact-info-item">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div>
+                <h4>Email Us</h4>
+                <p><a href="mailto:viveksaindane25@gmail.com">viveksaindane25@gmail.com</a></p>
+              </div>
+            </div>
+            <!-- <div class="contact-info-item">
+              <div class="icon-box icon-box--accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <div>
+                <h4>Call Us</h4>
+                <p><a href="tel:+91">+91 (555) 010-0100</a></p>
+              </div>
+            </div> -->
+            <!-- <div class="contact-info-item">
+              <div class="icon-box icon-box--success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>500 Innovation Drive, Suite 200<br>San Francisco, CA 94107</p>
+              </div>
+            </div> -->
+            <div class="contact-info-item">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div>
+                <h4>Working Hours</h4>
+                <p>Mon - Fri: 9:00 AM - 6:00 PM PST<br>Support: 24/7 for retainer clients</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" data-reveal="right" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">Full Name *</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Jane Doe" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email *</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="jane@company.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone</label>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="service">Service Interested In</label>
+                <select class="form-select" id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option>AI Automation</option>
+                  <option>Website Development</option>
+                  <option>Testing & Support</option>
+                  <option>SEO & Digital Marketing</option>
+                  <option>Design & Branding</option>
+                  <option>Video Editing</option>
+                  <option>Content Writing</option>
+                  <option>Multiple Services</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Project Details *</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your project, goals, and timeline..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block btn--lg">
+              Send Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- ===== CTA Banner ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2>Ready to launch your next project?</h2>
+          <p>Get a free 30-minute consultation. We'll review your goals and outline exactly how we can help — no commitment required.</p>
+          <div class="hero-actions">
+            <a href="services.html" class="btn btn--secondary btn--lg">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Automind home">
+            <img src="assets/automind.png.png" alt="Automind" class="logo-img">
+          </a>
+          <p>AI automation, web and app development, testing, SEO, design, video editing, and content writing — all under one roof.</p>
+          <div class="footer-social">
+<!--             <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+ --><!--             <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg></a>
+ --><!--             <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg></a>
+ -->            <a href="https://www.instagram.com/automind.offical?igsh=ZXBrYjNrN3hzbmQz" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#ai-automation">AI Automation</a></li>
+            <li><a href="services.html#website-development">Website Development</a></li>
+            <li><a href="services.html#testing-support">Testing & Support</a></li>
+            <li><a href="services.html#seo-marketing">SEO & Marketing</a></li>
+            <li><a href="services.html#design-branding">Design & Branding</a></li>
+            <li><a href="services.html#video-editing">Video Editing</a></li>
+            <li><a href="services.html#content-writing">Content Writing</a></li>
+          </ul>
+        </div>
+
+        <!-- <div class="footer-col">
+          <h4>Technologies</h4>
+          <ul>
+            <li><a href="#">Selenium</a></li>
+            <li><a href="#">Playwright</a></li>
+            <li><a href="#">Cypress</a></li>
+            <li><a href="#">React</a></li>
+            <li><a href="#">Figma</a></li>
+            <li><a href="#">Docker</a></li>
+          </ul>
+        </div> -->
+
+        <!-- <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <p style="color: var(--text-muted); font-size: var(--fs-sm); margin-bottom: var(--space-4)">Subscribe to our newsletter for insights on testing, design, and building great products.</p>
+          <form class="newsletter">
+            <input type="email" placeholder="Your email" aria-label="Email for newsletter" required>
+            <button type="submit" class="btn btn--primary" aria-label="Subscribe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </form>
+        </div> -->
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span data-year>2026</span> Automind. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <!-- WhatsApp float -->
+  <!-- <a href="https://wa.me/15550100" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-9.445 7.04H3.56l-.52-1.86c2.16-.79 3.62-2.58 3.62-4.6 0-2.77-2.46-5.02-5.5-5.02-3.04 0-5.5 2.25-5.5 5.02 0 1.19.5 2.29 1.32 3.16L1.5 21.42l3.16-1.4c.84.32 1.74.5 2.69.5 3.86 0 7-2.69 7-6 0-1.19-.5-2.29-1.32-3.16z"/></svg>
+  </a> -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>
