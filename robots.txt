@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://automindtech.github.io/sitemap.xml
+Sitemap: https://clouddns.site/sitemap.xml
